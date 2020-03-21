@@ -1,0 +1,42 @@
+https://blog.katsubemakito.net/git/git-config-1st
+https://qiita.com/shinsumicco/items/a1c799640131ae33c792
+ステータスのステータス：
+　git config -l
+GitHubのユーザー名&メールアドレス or 他人から見て自己が区別できるユーザー名&メールアドレス
+　git config --global user.name "TaroYamada"
+　git config --global user.email "taro.yamada@email.com"
+
+リポジトリ
+https://proengineer.internous.co.jp/content/columnfeature/6944
+gitリポジトリを新規するばあい
+　git init
+gitの情報
+　git status
+①gitに追加する場合
+　git add [file name]
+②gitに追加したファイルをコミットする場合
+　git commit -m "Hello、we start git by this file"
+　・""内はコメントで、-mはコメントの意味、git commitだけだとテキストエディターが起動
+③gitのlogを確認する場合
+　git log
+
+https://techacademy.jp/magazine/6235
+④リポジトリの登録
+https://qiita.com/masamitsu-konya/items/abb572337156e4d003cf
+git remote add origin https://github.com/3toru1jima/SatoruIchijima.git
+
+⑤クローン
+git clone https://github.com/3toru1jima/SatoruIchijima.git
+
+⑥フェッチ？
+git fetch origin
+
+⑦ブランチ名取得
+http://sugamasao.hatenablog.com/entry/2013/11/02/174311
+git rev-parse --abbrev-ref HEAD
+
+⑧pull
+git pull origin master
+
+
+
